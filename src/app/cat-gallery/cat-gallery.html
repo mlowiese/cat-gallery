@@ -1,0 +1,13 @@
+<div class="gallery">
+  <div class="highlight">
+    <img *ngIf="highlightedCat" [src]="highlightedCat.url" alt="Cat Highlight" />
+  </div>
+  <div class="thumbnails" id="grid">
+    <div class="col col-lg" *ngFor="let cat of cats">
+      <img [src]="cat.url" (click)="highlight(cat)" alt="Cat" />
+    </div>
+  </div>
+  <button (click)="loadMore()" [disabled]="loading" class="load-more">
+    {{ loading ? 'Carregando...' : 'Load More' }}
+  </button>
+</div>

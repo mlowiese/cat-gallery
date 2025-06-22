@@ -1,6 +1,6 @@
 import { bootstrapApplication } from '@angular/platform-browser';
 import { appConfig } from './app/app.config';
-import { App } from './app/app';
+import { CatGallery } from './app/cat-gallery/cat-gallery';
 
-bootstrapApplication(App, appConfig)
+bootstrapApplication(CatGallery, appConfig)
   .catch((err) => console.error(err));
