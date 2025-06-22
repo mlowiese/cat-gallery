@@ -17,6 +17,8 @@ This project is a cat image gallery built with [Angular 20](https://angular.io/)
 - GitHub Actions (CI/CD)
 - GitHub Pages
 
+# See [here](https://mlowiese.github.io/cat-gallery/)
+
 ## How to use
 
 1. Clone this repository.
