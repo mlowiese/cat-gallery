@@ -8,7 +8,11 @@ This project is a cat image gallery built with [Angular 20](https://angular.io/)
 - Allows you to view, highlight, and browse through various cat images.
 - Uses Angular Standalone Components, clean code organization, and integrates with GitHub Pages for automatic deployment (CI/CD).
 - The main goal is to serve as a learning lab for Angular, REST API integration, and deployment automation.
+---
 
+# See [here](https://mlowiese.github.io/cat-gallery/)
+
+---
 ## Technologies
 
 - Angular 20
@@ -16,8 +20,6 @@ This project is a cat image gallery built with [Angular 20](https://angular.io/)
 - The Cat API
 - GitHub Actions (CI/CD)
 - GitHub Pages
-
-# See [here](https://mlowiese.github.io/cat-gallery/)
 
 ## How to use
 
