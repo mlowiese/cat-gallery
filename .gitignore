@@ -40,3 +40,6 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# Ignore variáveis de ambiente com chave secreta
+src/environment/environment.prod.ts

@@ -1,10 +1,11 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs';
+import { environment } from '../../../environment/environment.prod';
 
 @Injectable({ providedIn: 'root' })
 export class CatService {
-  private apiKey = 'live_sXQvTnr3cdM9In1yQVBvIioEQ7NLu6AljO4wrn32Lteg8ZMlX9QmRgHWnNqizVnc'; 
+  private apiKey = environment.catApiKey;
 
   constructor(private http: HttpClient) {}
 
